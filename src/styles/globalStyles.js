@@ -11,12 +11,12 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     :root {
-        --primary: "#005f73";
-        --secondary: "#ffb703";
-        --accent: "#d62828";
-        --neutralLight: "#f1faee";
-        --neutralDark: "#333533";
-        --background: "#ffffff";
+        --primary: #005f73;
+        --secondary: #ffb703;
+        --accent: #d62828;
+        --neutralLight: #f1faee;
+        --neutralDark: #333533;
+        --background: #ffffff;
         --fontFamily: "Roboto", sans-serif;
         font-size: 62.5%;
     }
@@ -42,7 +42,7 @@ export const GlobalStyles = createGlobalStyle`
         background-color: var(--secondary);
     }
     
-    ::-webkit-scrollbar-thumb:hover{
+    ::-webkit-scrollbar-thumb:hover {
         filter: brightness(1.8);
     }
 
@@ -56,5 +56,10 @@ export const GlobalStyles = createGlobalStyle`
         @media (min-width: 1000px) {
             font-size: 1.6rem;
         }
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--neutralDark);
     }
 `;
