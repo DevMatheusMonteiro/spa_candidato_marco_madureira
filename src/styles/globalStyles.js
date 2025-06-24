@@ -9,7 +9,6 @@ export const GlobalStyles = createGlobalStyle`
         -moz-osx-font-smoothing: grayscale;
         -webkit-text-size-adjust: 100%;
     }
-
     :root {
         --primary: #005f73;
         --secondary: #ffb703;
@@ -20,7 +19,6 @@ export const GlobalStyles = createGlobalStyle`
         --fontFamily: "Roboto", sans-serif;
         font-size: 62.5%;
     }
-
     :-webkit-autofill,
     :-webkit-autofill:hover, 
     :-webkit-autofill:focus {
@@ -35,17 +33,14 @@ export const GlobalStyles = createGlobalStyle`
         background-color: var(--primary);
         opacity: 0;
     }
-    
     ::-webkit-scrollbar-thumb {
         cursor: pointer;
         border-radius: 0.8rem;
         background-color: var(--secondary);
     }
-    
     ::-webkit-scrollbar-thumb:hover {
         filter: brightness(1.8);
     }
-
     body {
         min-height: 100vh;
         font-family: var(--fontFamily);
@@ -53,11 +48,10 @@ export const GlobalStyles = createGlobalStyle`
         color: var(--neutralDark);
         background-color: var(--background);
         
-        @media (min-width: 1000px) {
+        @media (min-width: 768px) {
             font-size: 1.6rem;
         }
     }
-
     a {
       text-decoration: none;
       color: var(--neutralDark);

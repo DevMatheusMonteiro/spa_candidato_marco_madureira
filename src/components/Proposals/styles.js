@@ -20,7 +20,6 @@ export const Container = styled.section`
       grid-template-columns: 1fr 1fr;
     }
   }
-
   .proposal-card {
     background: var(neutralLight);
     border: 2px solid var(--primary);

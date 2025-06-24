@@ -7,10 +7,15 @@ export const Container = styled.header`
   padding: 0 2rem;
   height: 8rem;
   grid-area: header;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
   .hidden {
     display: none;
     @media (min-width: 768px) {
@@ -64,6 +69,11 @@ export const Container = styled.header`
     }
     @media (min-width: 768px) {
       display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 4rem;
     }
   }
 `;
