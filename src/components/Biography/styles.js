@@ -10,7 +10,6 @@ export const Container = styled.section`
     color: var(--primary);
     margin-top: 2rem;
   }
-
   .biography-content {
     display: flex;
     flex-direction: column;
