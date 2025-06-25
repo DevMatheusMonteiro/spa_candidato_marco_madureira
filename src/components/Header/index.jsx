@@ -20,7 +20,7 @@ export function Header() {
               <a href="#proposals">Propostas</a>
             </li>
             <li>
-              <a href="#schedules">Agenda</a>
+              <a href="#schedule">Agenda</a>
             </li>
             <li>
               <a href="#contact">Contato</a>

@@ -1,6 +1,15 @@
 import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+    :root {
+        --primary: #005f73;
+        --secondary: #ffb703;
+        --neutralLight: #f1faee;
+        --neutralDark: #333533;
+        --background: #ffffff;
+        --fontFamily: "Roboto", sans-serif;
+        font-size: 62.5%;
+    }
     * {
         margin: 0;
         padding: 0;
@@ -8,24 +17,8 @@ export const GlobalStyles = createGlobalStyle`
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
         -webkit-text-size-adjust: 100%;
-    }
-    :root {
-        --primary: #005f73;
-        --secondary: #ffb703;
-        --accent: #d62828;
-        --neutralLight: #f1faee;
-        --neutralDark: #333533;
-        --background: #ffffff;
-        --fontFamily: "Roboto", sans-serif;
-        font-size: 62.5%;
-    }
-    :-webkit-autofill,
-    :-webkit-autofill:hover, 
-    :-webkit-autofill:focus {
-        border: 0;
-        -webkit-text-fill-color: var(--neutralDark);
-        -webkit-box-shadow: 0 0 0px 1000px transparent inset;
-        transition: background-color 5000s ease-in-out 0s;
+        scrollbar-width: thin;
+        scrollbar-color: var(--secondary) var(--primary);
     }
     ::-webkit-scrollbar {
         width: 8px;
@@ -38,8 +31,8 @@ export const GlobalStyles = createGlobalStyle`
         border-radius: 0.8rem;
         background-color: var(--secondary);
     }
-    ::-webkit-scrollbar-thumb:hover {
-        filter: brightness(1.8);
+    html {
+        scroll-behavior: smooth;
     }
     body {
         min-height: 100vh;
