@@ -29,10 +29,15 @@ Este projeto é uma **Single Page Application (SPA)** desenvolvida em **React** 
 ## 📝 Funcionalidades
 
 ✅ SPA com navegação suave entre as seções (biografia, propostas, agenda, contato)
-✅ Layout mobile-first, responsivo para tablets e desktops  
+
+✅ Layout mobile-first, responsivo para tablets e desktops
+
 ✅ Scrollbar customizada com suporte a Chrome, Edge, Firefox e Safari
+
 ✅ Uso de Flexbox e Grid para distribuição de conteúdo
+
 ✅ Ícones responsivos com `react-icons`
+
 ✅ Seções:
 
 - **Header**: Nome do candidato + menu de navegação por âncoras
